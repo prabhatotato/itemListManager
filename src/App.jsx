@@ -57,6 +57,16 @@ const App = () => {
           ))}
         </ul>
       </div>
+      <footer className="mt-6 text-center">
+        <a
+          href="https://github.com/prabhatotato/itemListManager"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm text-gray-500 hover:text-green-500 transition"
+        >
+          View Code on GitHub
+        </a>
+      </footer>
     </div>
   );
 };
